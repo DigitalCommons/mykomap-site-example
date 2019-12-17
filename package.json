@@ -1,0 +1,17 @@
+{
+  "name": "sea-site-experiment",
+  "version": "0.1.0",
+  "description": "An experimental SEA site",
+  "main": "index.js",
+  "scripts": {
+    "build": "sea-site-build config node_modules/sea-map node_modules/sea-dataserver build",
+    "dev": "php -t build/out -S localhost:8080"
+  },
+  "author": "Solidarity Economy Association",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "sea-map": "file:../open-data-and-maps/map-app",
+    "sea-dataserver": "file:../open-data-and-maps/dataserver"
+  },
+  "devDependencies": {}
+}
