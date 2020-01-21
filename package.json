@@ -4,7 +4,7 @@
   "description": "An experimental SEA site",
   "main": "index.js",
   "scripts": {
-    "build": "sea-site-build config node_modules/sea-map node_modules/sea-dataserver build",
+    "build": "sea-site-build -c config -m node_modules/sea-map -d build src/*",
     "dev": "php -t build/out -S localhost:8080"
   },
   "author": "Solidarity Economy Association",
