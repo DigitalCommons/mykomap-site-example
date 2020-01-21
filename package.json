@@ -10,7 +10,7 @@
   "author": "Solidarity Economy Association",
   "license": "UNLICENSED",
   "dependencies": {
-    "sea-map": "file:../open-data-and-maps/map-app"
+    "sea-map": "SolidarityEconomyAssociation/sea-map#semver:^0.1.1"
   },
   "devDependencies": {}
 }
