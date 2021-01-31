@@ -1,0 +1,11 @@
+{
+  "namedDatasets": ["oxford"],
+  "htmlTitle": "Solidarity Oxford and Newbridge",
+  "defaultLatLng": ["51.7520", "-1.2577" ],
+  "filterableFields": [{ "field": "primaryActivity", "label": "Activities" }],
+  "doesDirectoryHaveColours": true,
+  "disableClusteringAtZoom": false,
+  "maxZoomOnGroup":12,
+  "maxZoomOnOne": 14,
+  "maxZoomOnSearch": 12
+}
