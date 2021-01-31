@@ -2,7 +2,7 @@
   "name": "sea-site-experiment",
   "version": "0.1.0",
   "description": "An experimental/demo SEA site",
-  "main": "index.js",
+  "main": "src/index.js",
   "config": {
     "deploy_to": "",
     "deploy_user": "www-data",
