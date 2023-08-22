@@ -1,22 +1,22 @@
 {
-  "name": "sea-site-experiment",
+  "name": "UPDATE ME",
   "version": "0.1.0",
-  "description": "An experimental/demo SEA site",
-  "main": "index.js",
+  "description": "UPDATE ME",
+  "main": "src/index.ts",
   "config": {
     "deploy_to": "",
     "deploy_user": "www-data",
     "deploy_group": "www-data"
   },
   "scripts": {
-    "build": "sea-site-build -c config -m node_modules/sea-map -d build src/*",
-    "dev": "php -t build/out -S localhost:8080",
-    "deploy": "set -x; rsync -avzc --rsync-path='sudo rsync' --delete --owner=\"$npm_package_config_deploy_user\" --group=\"$npm_package_config_deploy_group\" --exclude=build.txt --exclude=.* build/out/ \"${npm_package_config_deploy_to:?Please define the '$npm_package_name:deploy_to' npm config parameter}\""
+    "build": "mykomap-site-build -c config -s src -m node_modules/mykomap -d build www/*",
+    "deploy": "mykomap-site-deploy -f build/out/",
+    "server": "php -t build/out -S localhost:8080"
   },
-  "author": "Solidarity Economy Association",
+  "author": "Digital Commons Cooperative",
   "license": "UNLICENSED",
+  "repository": "github:DigitalCommons/UPDATE ME",
   "dependencies": {
-    "sea-map": "SolidarityEconomyAssociation/sea-map#semver:^0.1.1"
-  },
-  "devDependencies": {}
+    "mykomap": "github:DigitalCommons/mykomap#semver:^3.0.8"
+  }
 }
