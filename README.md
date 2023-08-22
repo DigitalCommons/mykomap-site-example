@@ -1,13 +1,15 @@
 # NAME
 
-sea-site-experiment
+mykomap-site-example: UPDATE ME
 
 # SYNOPSIS
 
-This is a demonstration/pilot project showing how to use the [`sea-map`][1] package.
+UPDATE ME TOO
 
-[1]: https://github.com/SolidarityEconomyAssociation/sea-map
+This is a demonstration/pilot project showing how to use the [`mykomap`][1] package.
 
-For details of how to do that, see the `sea-map` project's own
+[1]: https://github.com/DigitalCommons/mykomap
+
+For details of how to do that, see the `mykomap` project's own
 documentation. This is merely a supplementary example, which you can
 use to base new projects on.
