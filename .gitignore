@@ -1,8 +1,14 @@
+# Emacs
 *~
 *#
 
-/build/
-/node_modules/
+# Mac OS/X cruft:
+.DS_Store
 
-# Regenerated
+# generated files
+/build/
 /config/version.json
+/node_modules/
+npm-debug.log
+/src/version.json
+/config/config.json
