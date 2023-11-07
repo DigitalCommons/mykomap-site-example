@@ -17,6 +17,6 @@
   "license": "UNLICENSED",
   "repository": "github:DigitalCommons/UPDATE ME",
   "dependencies": {
-    "mykomap": "github:DigitalCommons/mykomap#semver:^3.0.8"
+    "mykomap": "github:DigitalCommons/mykomap#semver:^3.1.4"
   }
 }
