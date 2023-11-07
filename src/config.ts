@@ -15,7 +15,7 @@ import * as versions from "./version.json";
 import { InitiativeObj } from "mykomap/src/map-app/app/model/initiative";
 
 type Row = Record<string, string|null|undefined>;
-const baseUri = 'https://dev.lod.coop/coops-uk/';
+const baseUri = 'https://update-me/some/path/';
 
 const rowToObj = mkObjTransformer<Row, InitiativeObj>({
   uri: T.prefixed(baseUri).from('Identifier'),
@@ -55,7 +55,7 @@ export const config: ConfigData = new ConfigData({
       id: 'data-exaple-update-me',
       label: 'UPDATE ME',
       type: 'csv',
-      url: 'example.csv',
+      url: 'update-me.csv',
       transform: rowToObj,
     },
   ],
