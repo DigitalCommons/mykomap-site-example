@@ -62,7 +62,17 @@ git checkout –b development
 - Within the main directory of your new MykoMap instance create a config directory: <br />
   `mkdir config` <br/>
   or if you have VS Code open, just create a new folder
-- Update the config file with the src folder
+### Set-up for initial testing
+- Point the `dataSources url` within `src > .config.ts` to `example.csv`
+
+
+![image](https://github.com/DigitalCommons/mykomap-site-example/assets/22494228/5db43949-c92c-4d66-8dd6-c7512f5d695b)
+
+- Start your local server and fire up you local MykoMap instance: <br/>
+  `npm run build; npm run server`
+
+### Set-up for --- configuration
+- Update the config file within the src folder
   - Update the baseCoopUri and basePlaceUri eg: <br />
     https://dev.lod.coop/my-new-mykomap/coop/ <br/>
     https://dev.lod.coop/my-new-mykomap/place/
