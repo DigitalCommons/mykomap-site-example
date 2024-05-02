@@ -18,28 +18,44 @@ The following documents the creation a new MykoMap instance, and assumes the exi
 
 ## Setting up your new map repo
 
-- Clone the mykomap-site-example to your local directory <br/>
-  `git clone git@github.com:DigitalCommons/mykomap-site-example.git`
-- Within the same directory (the one containing mykomap-site-example), create an new directory to contain your new MykoMap instance, eg: <br/>
-  `mkdir my-new-mykomap`
+- Clone the mykomap-site-example to your local directory and create a new folder for your MykoMap instance <br/>
+```
+git clone --depth 1 git@github.com:DigitalCommons/mykomap-site-example.git my-new-mykomap
+```
 - Navigate to mykomap-site-example directory <br/>
-  `cd mykomap-site-example`
-- Move mykomap-site-example files to your new map directory <br/>
-  `git mv mykomap-site-example my-new-mykomap`
-- It is not essential, but prior to this you might want to back-up your local directory <br/>
-  `git clone mykomap-site-example mykomap-site-example-copy`
-- Create an empty my-new-mykomap repo within the DCC GitHub account\*<br/>
-  \*This step can be performed earlier in the process
-- On your local machine cd to the my-new-mykomap directory and set your newly created remote repo as the origin: <br/>
-  `git remote set-url origin git@github.com:DigitalCommons/mesopotamia-map.git`
-- Check the repo’s origin:
-  git remote show origin
-- Initialise the repo’s dependencies <br />
-  `npm i` <br />
-  `yarn`
-- Initiate an initial push to your new repo
+```
+cd mykomap-site-example
+```
+- Remove old Git history and configerations <br/>
+```
+rm -rf .git
+```
+- Start fresh with a clean Git repo <br/>
+```
+git init
+```
+- Add and commit files to the new repo<br/>
+```
+git add -A
+git commit -m "initial commit"
+```
+- Optional step - rename local master branch to main: <br/>
+```
+git branch -m master main
+```
+- Create new remote repository \* <br/>
+\*This step can be carried out earlier in the process, if desired
+<br/>
+
+- Set the remote origin to your new repo and push to main:
+```
+git remote add origin git@github.com:DigitalCommons/my-new-mykomap
+git push --set-upstream origin/main
+```
 - Create a development branch: <br />
-  `git checkout –b development`
+```
+git checkout –b development
+```
 
 ## Configuring your local map
 
