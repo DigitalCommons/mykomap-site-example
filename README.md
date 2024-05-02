@@ -39,7 +39,7 @@ git init
 git add -A
 git commit -m "initial commit"
 ```
-- Optional step - rename local master branch to main: <br/>
+- Optional step - rename local master branch to main <br/>
 ```
 git branch -m master main
 ```
@@ -47,12 +47,12 @@ git branch -m master main
 \*This step can be carried out earlier in the process, if desired
 <br/>
 
-- Set the remote origin to your new repo and push to main:
+- Set the remote origin to your new repo and push to main
 ```
 git remote add origin git@github.com:DigitalCommons/my-new-mykomap
 git push --set-upstream origin/main
 ```
-- Create a development branch: <br />
+- Create a development branch <br />
 ```
 git checkout –b development
 ```
