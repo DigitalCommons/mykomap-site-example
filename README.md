@@ -175,6 +175,6 @@ export const config: ConfigData = new ConfigData({
 });
 ```
 
-  - As with the vocabularies, if do not have a remote date file one can be added to the www folder and referenced locally in the `dataSources` object.
+  - As with the vocabularies, if you do not have a remote data file, one can be added to the `www/` folder and referenced locally in the `dataSources` object.
 - Start your local server and fire up you local MykoMap instance: <br/>
   `npm run build; npm run server`
