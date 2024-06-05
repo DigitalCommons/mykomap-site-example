@@ -73,7 +73,7 @@ or if you have VS Code open, just create a new folder in the root directory.
 
 
 ### Map set-up for initial testing
-- Point the `dataSources url` within `src > .config.ts` to `example.csv`
+- Point the `dataSources url` within `src/config.ts` to `example.csv`
 
 ```
 dataSources: [
